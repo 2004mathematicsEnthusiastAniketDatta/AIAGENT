@@ -1,0 +1,30 @@
+{
+  "name": "weather-gpt",
+  "version": "1.0.0",
+  "description": "A GPT-4 agent using LangChain.js to provide weather details based on user requests.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "langchain": "^0.0.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.0.0",
+    "jest": "^27.0.0",
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "keywords": [
+    "GPT-4",
+    "LangChain",
+    "weather",
+    "agent"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
